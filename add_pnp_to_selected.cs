@@ -15,7 +15,8 @@ public class EntryPoint {
             {
                 if (trackEvent.Selected && trackEvent.MediaType == MediaType.Video)
                 {
-                    ((VideoEvent) trackEvent).Effects.AddEffect(plugin);
+					VideoEvent videoEvent = (VideoEvent) trackEvent;
+                    videoEvent.Effects.AddEffect(plugin);
 
                     OFXEffect effect = videoEvent.Effects[videoEvent.Effects.Count - 1].OFXEffect;
                     OFXDoubleParameter parameter = (OFXDoubleParameter) effect.FindParameterByName("Scale");
