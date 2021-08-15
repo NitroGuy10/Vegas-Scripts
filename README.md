@@ -15,6 +15,9 @@ Just like the previous one except it will not add a VEGAS Picture In Picture eff
 ### [Vegas_ScreenShake](https://github.com/NitroGuy10/Vegas_ScreenShake)
 Apply a "screen shake" or "camera shake" effect to video clips using, you guessed it, VEGAS Picture In Picture
 
+### [Vegas_Oscillator_Randomizer](https://github.com/NitroGuy10/Vegas_Oscillator_Randomizer)
+Automate any parameter of any OpenFX-based video effect. Parameters can oscillate, be set to random values, or traverse through generated noise.
+
 ---
 
 ![the virgin Pan/Crop vs the chad Picture In Picture](rationale.png)
