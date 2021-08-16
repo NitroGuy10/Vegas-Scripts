@@ -23,4 +23,16 @@ Automate any parameter of any OpenFX-based video effect. Parameters can oscillat
 
 ---
 
+## Install
+ 
+Grab your desired .cs file(s) from this repository.
+Move them file into the Script Menu folder of your VEGAS installation.
+Usually, it's something like C:\\Program Files\\VEGAS\\VEGAS Pro 18.0\\Script Menu
+
+From Vegas, you can find it under Tools > Scripting > (Script Name Here)
+
+You can also add it to your toolbar by double-clicking on the toolbar, choosing the desired script from the left menu, and clicking "Add ->".
+
+---
+
 ![the virgin Pan/Crop vs the chad Picture In Picture](rationale.png)
